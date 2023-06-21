@@ -1,0 +1,501 @@
+{
+	"topicTags": [
+		{
+			"id": "VG9waWNUYWdOb2RlOjU=",
+			"name": "Array",
+			"slug": "array",
+			"translatedName": null,
+			"questionCount": 1147
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjEw",
+			"name": "String",
+			"slug": "string",
+			"translatedName": null,
+			"questionCount": 551
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjY=",
+			"name": "Hash Table",
+			"slug": "hash-table",
+			"translatedName": null,
+			"questionCount": 393
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjEz",
+			"name": "Dynamic Programming",
+			"slug": "dynamic-programming",
+			"translatedName": null,
+			"questionCount": 384
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjg=",
+			"name": "Math",
+			"slug": "math",
+			"translatedName": null,
+			"questionCount": 364
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDQ5",
+			"name": "Sorting",
+			"slug": "sorting",
+			"translatedName": null,
+			"questionCount": 255
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjIx",
+			"name": "Depth-First Search",
+			"slug": "depth-first-search",
+			"translatedName": null,
+			"questionCount": 251
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjE3",
+			"name": "Greedy",
+			"slug": "greedy",
+			"translatedName": null,
+			"questionCount": 248
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDQz",
+			"name": "Database",
+			"slug": "database",
+			"translatedName": null,
+			"questionCount": 208
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjIy",
+			"name": "Breadth-First Search",
+			"slug": "breadth-first-search",
+			"translatedName": null,
+			"questionCount": 198
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjIw",
+			"name": "Tree",
+			"slug": "tree",
+			"translatedName": null,
+			"questionCount": 192
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjEx",
+			"name": "Binary Search",
+			"slug": "binary-search",
+			"translatedName": null,
+			"questionCount": 188
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDUz",
+			"name": "Matrix",
+			"slug": "matrix",
+			"translatedName": null,
+			"questionCount": 171
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDU3",
+			"name": "Binary Tree",
+			"slug": "binary-tree",
+			"translatedName": null,
+			"questionCount": 159
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjk=",
+			"name": "Two Pointers",
+			"slug": "two-pointers",
+			"translatedName": null,
+			"questionCount": 150
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjE5",
+			"name": "Bit Manipulation",
+			"slug": "bit-manipulation",
+			"translatedName": null,
+			"questionCount": 139
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjE1",
+			"name": "Stack",
+			"slug": "stack",
+			"translatedName": null,
+			"questionCount": 129
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjI1",
+			"name": "Design",
+			"slug": "design",
+			"translatedName": null,
+			"questionCount": 114
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDUw",
+			"name": "Heap (Priority Queue)",
+			"slug": "heap-priority-queue",
+			"translatedName": null,
+			"questionCount": 110
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjI0",
+			"name": "Graph",
+			"slug": "graph",
+			"translatedName": null,
+			"questionCount": 102
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDU1",
+			"name": "Simulation",
+			"slug": "simulation",
+			"translatedName": null,
+			"questionCount": 98
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjE0",
+			"name": "Backtracking",
+			"slug": "backtracking",
+			"translatedName": null,
+			"questionCount": 91
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDY4",
+			"name": "Prefix Sum",
+			"slug": "prefix-sum",
+			"translatedName": null,
+			"questionCount": 90
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDYy",
+			"name": "Counting",
+			"slug": "counting",
+			"translatedName": null,
+			"questionCount": 83
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjU1ODIx",
+			"name": "Sliding Window",
+			"slug": "sliding-window",
+			"translatedName": null,
+			"questionCount": 72
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjc=",
+			"name": "Linked List",
+			"slug": "linked-list",
+			"translatedName": null,
+			"questionCount": 69
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjIz",
+			"name": "Union Find",
+			"slug": "union-find",
+			"translatedName": null,
+			"questionCount": 64
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDU0",
+			"name": "Monotonic Stack",
+			"slug": "monotonic-stack",
+			"translatedName": null,
+			"questionCount": 45
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDcw",
+			"name": "Ordered Set",
+			"slug": "ordered-set",
+			"translatedName": null,
+			"questionCount": 44
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjMx",
+			"name": "Recursion",
+			"slug": "recursion",
+			"translatedName": null,
+			"questionCount": 44
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjI3",
+			"name": "Trie",
+			"slug": "trie",
+			"translatedName": null,
+			"questionCount": 41
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjMw",
+			"name": "Binary Search Tree",
+			"slug": "binary-search-tree",
+			"translatedName": null,
+			"questionCount": 40
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDY2",
+			"name": "Enumeration",
+			"slug": "enumeration",
+			"translatedName": null,
+			"questionCount": 38
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjEy",
+			"name": "Divide and Conquer",
+			"slug": "divide-and-conquer",
+			"translatedName": null,
+			"questionCount": 38
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDc4",
+			"name": "Bitmask",
+			"slug": "bitmask",
+			"translatedName": null,
+			"questionCount": 37
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjM0",
+			"name": "Queue",
+			"slug": "queue",
+			"translatedName": null,
+			"questionCount": 32
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjMz",
+			"name": "Memoization",
+			"slug": "memoization",
+			"translatedName": null,
+			"questionCount": 32
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjM4",
+			"name": "Geometry",
+			"slug": "geometry",
+			"translatedName": null,
+			"questionCount": 30
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjI2",
+			"name": "Topological Sort",
+			"slug": "topological-sort",
+			"translatedName": null,
+			"questionCount": 28
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjI5",
+			"name": "Segment Tree",
+			"slug": "segment-tree",
+			"translatedName": null,
+			"questionCount": 27
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDcz",
+			"name": "Game Theory",
+			"slug": "game-theory",
+			"translatedName": null,
+			"questionCount": 24
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDY1",
+			"name": "Hash Function",
+			"slug": "hash-function",
+			"translatedName": null,
+			"questionCount": 24
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjI4",
+			"name": "Binary Indexed Tree",
+			"slug": "binary-indexed-tree",
+			"translatedName": null,
+			"questionCount": 21
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDU5",
+			"name": "Interactive",
+			"slug": "interactive",
+			"translatedName": null,
+			"questionCount": 18
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDUy",
+			"name": "String Matching",
+			"slug": "string-matching",
+			"translatedName": null,
+			"questionCount": 17
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjU2NTk4",
+			"name": "Rolling Hash",
+			"slug": "rolling-hash",
+			"translatedName": null,
+			"questionCount": 17
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDc2",
+			"name": "Shortest Path",
+			"slug": "shortest-path",
+			"translatedName": null,
+			"questionCount": 16
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDYz",
+			"name": "Data Stream",
+			"slug": "data-stream",
+			"translatedName": null,
+			"questionCount": 16
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDY3",
+			"name": "Number Theory",
+			"slug": "number-theory",
+			"translatedName": null,
+			"questionCount": 15
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDU2",
+			"name": "Combinatorics",
+			"slug": "combinatorics",
+			"translatedName": null,
+			"questionCount": 15
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDc1",
+			"name": "Randomized",
+			"slug": "randomized",
+			"translatedName": null,
+			"questionCount": 12
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDcx",
+			"name": "Monotonic Queue",
+			"slug": "monotonic-queue",
+			"translatedName": null,
+			"questionCount": 9
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDY0",
+			"name": "Iterator",
+			"slug": "iterator",
+			"translatedName": null,
+			"questionCount": 9
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDUx",
+			"name": "Merge Sort",
+			"slug": "merge-sort",
+			"translatedName": null,
+			"questionCount": 9
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDQ1",
+			"name": "Concurrency",
+			"slug": "concurrency",
+			"translatedName": null,
+			"questionCount": 9
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDU4",
+			"name": "Doubly-Linked List",
+			"slug": "doubly-linked-list",
+			"translatedName": null,
+			"questionCount": 8
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjMy",
+			"name": "Brainteaser",
+			"slug": "brainteaser",
+			"translatedName": null,
+			"questionCount": 8
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDc5",
+			"name": "Probability and Statistics",
+			"slug": "probability-and-statistics",
+			"translatedName": null,
+			"questionCount": 7
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDY5",
+			"name": "Quickselect",
+			"slug": "quickselect",
+			"translatedName": null,
+			"questionCount": 6
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDYw",
+			"name": "Bucket Sort",
+			"slug": "bucket-sort",
+			"translatedName": null,
+			"questionCount": 6
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjU2Njk4",
+			"name": "Suffix Array",
+			"slug": "suffix-array",
+			"translatedName": null,
+			"questionCount": 6
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDgz",
+			"name": "Minimum Spanning Tree",
+			"slug": "minimum-spanning-tree",
+			"translatedName": null,
+			"questionCount": 5
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDcy",
+			"name": "Counting Sort",
+			"slug": "counting-sort",
+			"translatedName": null,
+			"questionCount": 5
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDQ0",
+			"name": "Shell",
+			"slug": "shell",
+			"translatedName": null,
+			"questionCount": 4
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjU2MTE5",
+			"name": "Line Sweep",
+			"slug": "line-sweep",
+			"translatedName": null,
+			"questionCount": 4
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjM2",
+			"name": "Reservoir Sampling",
+			"slug": "reservoir-sampling",
+			"translatedName": null,
+			"questionCount": 4
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDc0",
+			"name": "Eulerian Circuit",
+			"slug": "eulerian-circuit",
+			"translatedName": null,
+			"questionCount": 3
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDg1",
+			"name": "Strongly Connected Component",
+			"slug": "strongly-connected-component",
+			"translatedName": null,
+			"questionCount": 2
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDYx",
+			"name": "Radix Sort",
+			"slug": "radix-sort",
+			"translatedName": null,
+			"questionCount": 2
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjU0NTY5",
+			"name": "Rejection Sampling",
+			"slug": "rejection-sampling",
+			"translatedName": null,
+			"questionCount": 2
+		},
+		{
+			"id": "VG9waWNUYWdOb2RlOjYxMDg0",
+			"name": "Biconnected Component",
+			"slug": "biconnected-component",
+			"translatedName": null,
+			"questionCount": 1
+		}
+	]
+}
