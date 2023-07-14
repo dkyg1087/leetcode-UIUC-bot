@@ -79,6 +79,18 @@ async function saveSeenQuestions(
   let ref = db.ref("/");
   await ref.update({ seenQuestions: { tagIndex: tag, seen: seen } });
 }
+
+async function saveItem(refference:string,item:any):Promise<void>{
+  let ref = db.ref(refference);
+  await ref.set(item);
+}
+
+async function getItem(refference:string):Promise<Array<Object>>{
+  let ref = db.ref(refference);
+  return (await ref.get()).val()
+}
+
+
 export {
   addChannel,
   deleteChannel,
@@ -87,4 +99,6 @@ export {
   getTag,
   saveSeenQuestions,
   getSeenQuestions,
+  getItem,
+  saveItem
 };

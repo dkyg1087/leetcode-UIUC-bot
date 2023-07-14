@@ -15,6 +15,8 @@ import {
   InteractionType,
 } from "discord-api-types/v10";
 
+import { doRepoCheck } from "./checkRepo.js"
+
 //var bodyParser = require('body-parser')
 
 dotenv.config();
@@ -78,7 +80,7 @@ app.post("/", (req, res) => {
 // For testing purposes
 app.get("/", (req, res) => {
   res.status(200).end("hi there");
-  console.log("test")
+  console.log("test");
 });
 
 app.post("/dailypush", (req, res) => {
@@ -92,6 +94,18 @@ app.post("/dailypush", (req, res) => {
     }
   );
   console.log("daily push")
+});
+
+app.post("/repocheck",(req,res)=>{
+  doRepoCheck(true).then(
+    ()=>{
+      res.sendStatus(200);
+    },
+    (err)=>{
+      console.error(err);
+      res.status(500).send({ error: String(err) });
+    }
+  )
 });
 
 const server = app.listen(port, () => {

@@ -1,6 +1,6 @@
 import { Request } from "express";
 import nacl from "tweetnacl";
-import { PUSH_COMMAND } from "./commands.js";
+import { PUSH_COMMAND} from "./commands.js";
 import { REST } from "@discordjs/rest";
 import {
   SlashCommandBuilder,

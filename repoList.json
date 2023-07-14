@@ -1,0 +1,39 @@
+{
+    "repoList":[
+        {
+            "owner":"pittcsc",
+            "repo":"Summer2024-Internships",
+            "header":"| Name | Location | Notes |",
+            "note":"Internships",
+            "key":"Name"
+        },
+        {
+            "owner":"Trident-Development",
+            "repo":"2024-new-grad-intern",
+            "header":"| Title | Company | Start Time | End Time | Location | Sponsorship | Notes |",
+            "note":"Internships",
+            "key":"Company"
+        },
+        {
+            "owner":"Trident-Development",
+            "repo":"2024-new-grad-intern",
+            "header":"| Title | Company | Start Time | Location | Sponsorship | Notes |",
+            "note":"New Graduates",
+            "key":"Company"
+        },
+        {
+            "owner":"AlanChen4",
+            "repo":"Summer-2024-SWE-Internships",
+            "header":"| Company | Description | Investors | Title | Status | Added On |",
+            "note":"Internships",
+            "key":"Company"
+        },
+        {
+            "owner":"ReaVNaiL",
+            "repo":"New-Grad-2024",
+            "header":"| Name         | Location     | Roles                | Citizenship/Visa Requirements | Date Posted <br> mm/dd/yyyy |",
+            "note":"New Graduates",
+            "key":"Name"
+        }
+    ]
+}

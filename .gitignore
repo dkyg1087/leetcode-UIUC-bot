@@ -4,3 +4,4 @@ tsconfig.tsbuildinfo
 dist
 package-lock.json
 shrinkwrap.yaml
+.gcloudignore
