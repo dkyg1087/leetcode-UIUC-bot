@@ -59,7 +59,7 @@ function parseMarkdownTable(tableText: string): any[] {
     headerRow.forEach((header, index) => {
       // Replace the matched characters with spaces
       const cleanedHeader = header.replace(/[.$\/[\]#]/g, " ");
-      rowData[cleanedHeader] = cells[index];
+      rowData[cleanedHeader] = cells[index]?? "N/A";
     });
     return rowData;
   });
