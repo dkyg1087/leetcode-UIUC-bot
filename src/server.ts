@@ -81,7 +81,7 @@ app.post("/", (req, res) => {
 app.get("/", (req, res) => {
   res.status(200).end("hi there testing");
   console.log("test");
-  // doRepoCheck(true)
+  //doRepoCheck(true)
 });
 
 app.get("/test", async (req, res) => {
@@ -91,12 +91,28 @@ app.get("/test", async (req, res) => {
 });
 
 app.post("/dailypush", (req, res) => {
-  dailyPush();
+  dailyPush().then(
+    (val) => {
+      res.sendStatus(200);
+    },
+    (err) => {
+      console.error(err);
+      res.status(500).send({ error: String(err) });
+    }
+  );
   console.log("daily push")
 });
 
 app.post("/repocheck",(req,res)=>{
-  doRepoCheck(true);
+  doRepoCheck(true).then(
+    ()=>{
+      res.sendStatus(200);
+    },
+    (err)=>{
+      console.error(err);
+      res.status(500).send({ error: String(err) });
+    }
+  )
 });
 
 const server = app.listen(port, () => {
