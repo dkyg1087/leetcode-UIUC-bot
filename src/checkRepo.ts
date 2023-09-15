@@ -5,7 +5,7 @@ import pkg from 'lodash';
 import {makeKeyFromString,findTableSectionByHeader,removeHtmlTags,parseMarkdownTable} from './utils.js';
 import {sendMsg} from './discord.js'
 
-import {saveItem,getItem} from './database.js'
+import {saveItem,getItem,removeDir} from './database.js'
 
 import 'firebase/compat/database';
 
@@ -106,6 +106,11 @@ async function doRepoCheck(postMsg:Boolean){
     console.error('Invalid JSON:', error);
   }
   return
+}
+
+async function refreshJobRef(){
+  await removeDir("/jobAlert");
+  await doRepoCheck(false);
 }
 
 function readRepoList(loc:string = "repoList.json"){
@@ -231,6 +236,7 @@ function constructMessage(json: any): Promise<Array<string>> {
 }
 
 export {
-  doRepoCheck
+  doRepoCheck,
+  refreshJobRef
 }
 
