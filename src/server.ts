@@ -15,7 +15,7 @@ import {
   InteractionType,
 } from "discord-api-types/v10";
 
-import { doRepoCheck } from "./checkRepo.js"
+import { doRepoCheck,refreshJobRef } from "./checkRepo.js"
 
 //var bodyParser = require('body-parser')
 
@@ -81,7 +81,15 @@ app.post("/", (req, res) => {
 app.get("/", (req, res) => {
   res.status(200).end("hi there testing");
   console.log("test");
-  //doRepoCheck(true)
+  // refreshJobRef().then(
+  //   ()=>{
+  //     res.sendStatus(200);
+  //   },
+  //   (err)=>{
+  //     console.error(err);
+  //     res.status(500).send({ error: String(err) });
+  //   }
+  // );
 });
 
 app.get("/test", async (req, res) => {
