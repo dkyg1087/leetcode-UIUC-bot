@@ -1,5 +1,5 @@
 import express from "express";
-import { verifySig, registerCommands,deleteAllCommands } from "./discord.js";
+import { verifySig, registerCommands,deleteAllCommands,sendMsg } from "./discord.js";
 //import bodyParser from "body-parser";
 import { dailyPush, getProblems } from "./leetcode.js";
 import dotenv from "dotenv";
@@ -79,33 +79,24 @@ app.post("/", (req, res) => {
 
 // For testing purposes
 app.get("/", (req, res) => {
+  res.status(200).end("hi there testing");
+  console.log("test");
+  // doRepoCheck(true)
+});
+
+app.get("/test", async (req, res) => {
   res.status(200).end("hi there");
   console.log("test");
+  await sendMsg("1129177851036450837","今天沒有新的更新",undefined)
 });
 
 app.post("/dailypush", (req, res) => {
-  dailyPush().then(
-    (val) => {
-      res.sendStatus(200);
-    },
-    (err) => {
-      console.error(err);
-      res.status(500).send({ error: String(err) });
-    }
-  );
+  dailyPush();
   console.log("daily push")
 });
 
 app.post("/repocheck",(req,res)=>{
-  doRepoCheck(true).then(
-    ()=>{
-      res.sendStatus(200);
-    },
-    (err)=>{
-      console.error(err);
-      res.status(500).send({ error: String(err) });
-    }
-  )
+  doRepoCheck(true);
 });
 
 const server = app.listen(port, () => {

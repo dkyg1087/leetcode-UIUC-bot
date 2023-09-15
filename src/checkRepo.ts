@@ -46,6 +46,8 @@ async function doRepoCheck(postMsg:Boolean){
           if(!row){
             break;
           }
+          // console.log("Row",row)
+          // console.log("Item",item)
           const key = makeKeyFromString(row[item.key]);
           const dataRef:string = `/jobAlert/${item.owner}/${item.repo}/${item.note}/${key}`;
           
