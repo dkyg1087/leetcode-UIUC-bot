@@ -90,8 +90,14 @@ async function getItem(refference:string):Promise<Array<Object>>{
   return (await ref.get()).val()
 }
 
+async function removeDir(refference:string):Promise<void>{
+  let ref = db.ref(refference)
+  await ref.remove();
+}
+
 
 export {
+  removeDir,
   addChannel,
   deleteChannel,
   listChannels,
