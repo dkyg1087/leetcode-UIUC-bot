@@ -3,7 +3,7 @@ import { verifySig, registerCommands,deleteAllCommands,sendMsg } from "./discord
 //import bodyParser from "body-parser";
 import { dailyPush, getProblems } from "./leetcode.js";
 import dotenv from "dotenv";
-import { addChannel, deleteChannel} from "./database.js";
+import { addChannel, deleteChannel,testService} from "./database.js";
 import {
   APIApplicationCommandInteraction,
   APIInteraction,
@@ -78,18 +78,12 @@ app.post("/", (req, res) => {
 });
 
 // For testing purposes
-app.get("/", (req, res) => {
+app.get("/", async (req, res) => {
   res.status(200).end("hi there testing");
   console.log("test");
-  // refreshJobRef().then(
-  //   ()=>{
-  //     res.sendStatus(200);
-  //   },
-  //   (err)=>{
-  //     console.error(err);
-  //     res.status(500).send({ error: String(err) });
-  //   }
-  // );
+  //await testService();
+  //await doRepoCheck(false);
+  //await dailyPush();
 });
 
 app.get("/test", async (req, res) => {

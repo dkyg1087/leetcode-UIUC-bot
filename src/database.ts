@@ -1,11 +1,16 @@
 import firebase from 'firebase/compat/app'
 import 'firebase/compat/database'
 
+import admin from "firebase-admin";
+
 const credentials = JSON.parse(process.env.firebaseConfig!);
 
-firebase.initializeApp(credentials);
+admin.initializeApp({
+  credential: admin.credential.cert("admin_key.json"),
+  databaseURL: "https://proj-5b377-default-rtdb.firebaseio.com"
+});
 
-const db = firebase.database()
+const db = admin.database()
 
 async function addChannel(channelID: string) {
   let ref = db.ref("/");
@@ -95,8 +100,14 @@ async function removeDir(refference:string):Promise<void>{
   await ref.remove();
 }
 
+async function testService():Promise<void>{
+  let ref = db.ref("/")
+  await ref.set({Testing:true});
+}
+
 
 export {
+  testService,
   removeDir,
   addChannel,
   deleteChannel,

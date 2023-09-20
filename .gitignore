@@ -5,3 +5,4 @@ dist
 package-lock.json
 shrinkwrap.yaml
 .gcloudignore
+**/admin_key.json
