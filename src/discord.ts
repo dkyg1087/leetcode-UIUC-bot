@@ -12,8 +12,8 @@ import { Routes } from "discord-api-types/v10";
 import dotenv from "dotenv";
 
 const PUBLIC_KEY =
-  "729fb688d3ffee48e1a0e789f9fc31f5813d5e25546748398db57d8857ec8262";
-const APPLICATION_ID = "1111779382814593096";
+  "b00ed8d0e508a16b60f7a4e26084bf71ec00c2c0f34d2357604879102970236f";
+const APPLICATION_ID = "1242349016302489601";
 
 function verifySig(req: Request): boolean {
   // Your public key can be found on your application in the Developer Portal

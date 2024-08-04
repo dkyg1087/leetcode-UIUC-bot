@@ -1,39 +1,25 @@
 {
     "repoList":[
         {
-            "owner":"pittcsc",
-            "repo":"Summer2024-Internships",
+            "owner":"Ouckah",
+            "repo":"Summer2025-Internships",
             "header":"| Company | Role | Location | Application/Link | Date Posted |",
             "note":"Internships",
             "key":"Company"
         },
         {
-            "owner":"Trident-Development",
-            "repo":"2024-new-grad-intern",
-            "header":"| Title | Company | Start Time | End Time | Location | Sponsorship | Notes |",
-            "note":"Internships",
-            "key":"Company"
-        },
-        {
-            "owner":"Trident-Development",
-            "repo":"2024-new-grad-intern",
-            "header":"| Title | Company | Start Time | Location | Sponsorship | Notes |",
+            "owner":"SimplifyJobs",
+            "repo":"New-Grad-Positions",
+            "header":"| Company | Role | Location | Application/Link | Date Posted |",
             "note":"New Graduates",
             "key":"Company"
         },
         {
-            "owner":"AlanChen4",
-            "repo":"Summer-2024-SWE-Internships",
-            "header":"| Company | Investors | Title | Status | Added On |",
-            "note":"Internships",
-            "key":"Company"
-        },
-        {
-            "owner":"ReaVNaiL",
-            "repo":"New-Grad-2024",
-            "header":"| Name         | Location     | Roles                | Citizenship/Visa Requirements | Date Added <br> mm/dd/yyyy |",
+            "owner":"haydenthai",
+            "repo":"New-Grad-2025",
+            "header":"| Company | Role | Location | Application/Link | Date Posted |",
             "note":"New Graduates",
-            "key":"Name"
+            "key":"Company"
         }
     ]
 }

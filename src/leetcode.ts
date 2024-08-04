@@ -197,7 +197,7 @@ async function dailyPush() {
   const prob = probs.problems[index];
   const em = formatProb(prob);
   channels.forEach((v, i, o) => {
-    const msg = `<@&1118372180258979931>  ${customMsg}\n本週主題: ${tags[tag].name}\n${prob.url}`;
+    const msg = `${customMsg}\n本週主題: ${tags[tag].name}\n${prob.url}`;
 
     sendMsg(v, msg, em).catch((err) => {
       console.log(err);

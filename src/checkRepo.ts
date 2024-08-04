@@ -91,13 +91,15 @@ async function doRepoCheck(postMsg:Boolean){
     console.log(changedItem)
     if(postMsg){
       const msgList = await constructMessage(changedItem)
-      msgList[0] = "<@&1118372180258979931> 今天的更新來啦!\n" + msgList[0]
+      msgList[0] = "今天的更新來啦!\n" + msgList[0]
       for(const msg of msgList){
-        if (msg === "<@&1118372180258979931> 今天的更新來啦!\n"){
+        if (msg === "今天的更新來啦!\n"){
           await sendMsg("1129177851036450837","今天沒有新的更新",undefined)
+          //await sendMsg("1114429836082024458","今天沒有新的更新",undefined)
           return
         }else{
           await sendMsg("1129177851036450837",msg,undefined)
+          //await sendMsg("1114429836082024458",msg,undefined)
         }
       }
     }

@@ -7,7 +7,7 @@ const credentials = JSON.parse(process.env.firebaseConfig!);
 
 admin.initializeApp({
   credential: admin.credential.cert("admin_key.json"),
-  databaseURL: "https://proj-5b377-default-rtdb.firebaseio.com"
+  databaseURL: "https://leetcodetw-uiuc-default-rtdb.firebaseio.com/"
 });
 
 const db = admin.database()

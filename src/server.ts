@@ -82,14 +82,14 @@ app.get("/", async (req, res) => {
   res.status(200).end("hi there testing");
   console.log("test");
   //await testService();
-  //await doRepoCheck(false);
+  await doRepoCheck(true);
   //await dailyPush();
 });
 
 app.get("/test", async (req, res) => {
   res.status(200).end("hi there");
   console.log("test");
-  await sendMsg("1129177851036450837","今天沒有新的更新",undefined)
+  await sendMsg("1114429836082024458","今天沒有新的更新",undefined)
 });
 
 app.post("/dailypush", (req, res) => {
